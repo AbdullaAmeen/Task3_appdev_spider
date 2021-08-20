@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_heroes"
+            android:icon="@drawable/ic_hero"
+            android:title="@string/menu_heroes" />
+        <item
+        android:id="@+id/nav_male_heroes"
+        android:icon="@drawable/ic_heromaleicon"
+        android:title="@string/menu_male_heroes" />
+
+        <item
+            android:id="@+id/nav_female_heroes"
+            android:icon="@drawable/ic_femaleheroicon"
+            android:title="@string/menu_female_heroes" />
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_heart_black"
+            android:title="@string/menu_fav" />
+    </group>
+</menu>

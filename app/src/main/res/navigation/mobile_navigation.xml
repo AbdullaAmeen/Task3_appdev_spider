@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_heroes">
+
+    <fragment
+        android:id="@+id/nav_heroes"
+        android:name="com.example.superheroes.ui.Heroes.HeroesFragment"
+        android:label="@string/menu_heroes"
+        tools:layout="@layout/fragment_heroes" />
+
+    <fragment
+        android:id="@+id/nav_male_heroes"
+        android:name="com.example.superheroes.ui.MaleHeroes.MaleHeroesFragment"
+        android:label="@string/menu_male_heroes"
+        tools:layout="@layout/fragment_male_heroes" />
+
+    <fragment
+        android:id="@+id/nav_female_heroes"
+        android:name="com.example.superheroes.ui.FemaleHeroes.FemaleHeroesFragment"
+        android:label="@string/menu_female_heroes" />
+    <fragment
+        android:id="@+id/nav_fav"
+        android:name="com.example.superheroes.ui.Fav.FavFragment"
+        android:label="@string/menu_fav"
+        tools:layout="@layout/fragment_fav" />
+</navigation>
